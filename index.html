@@ -8,6 +8,7 @@
 </head>
 
 <body style="border: 0px;">
+    <audio id="clickSound" src="Audio/mixkit-modern-technology-select-3124.wav" preload="auto"></audio>
     <div class="containor">
         <div class="calculator">
             <div class="result">
@@ -16,25 +17,25 @@
 
             <div class="values" style="display: flex;">
                 <span class="operator">
-                    <button class="o " onclick="appendToDisplay('+')">+</button>
-                    <button class="o " onclick="appendToDisplay('-')">-</button>
-                    <button class="o " onclick="appendToDisplay('*')">*</button>
-                    <button class="o " onclick="appendToDisplay('/')">/</button>
-                    <button class=" o" onclick="clearDisplay()">C</button>
+                    <button id="click" class="o click" onclick="appendToDisplay('+')">+</button>
+                    <button class="o click" onclick="appendToDisplay('-')">-</button>
+                    <button class="o click" onclick="appendToDisplay('*')">*</button>
+                    <button class="o click" onclick="appendToDisplay('/')">/</button>
+                    <button class="o click" onclick="clearDisplay()">C</button>
                 </span>
                 <span class="buttons">
-                    <button class=" n" onclick="appendToDisplay('7')">7</button>
-                    <button class=" n" onclick="appendToDisplay('8')">8</button>
-                    <button class=" n" onclick="appendToDisplay('9')">9</button>
-                    <button class=" n" onclick="appendToDisplay('4')">4</button>
-                    <button class=" n" onclick="appendToDisplay('5')">5</button>
-                    <button class=" n" onclick="appendToDisplay('6')">6</button>
-                    <button class=" n" onclick="appendToDisplay('1')">1</button>
-                    <button class=" n" onclick="appendToDisplay('2')">2</button>
-                    <button class=" n" onclick="appendToDisplay('3')">3</button>
-                    <button class="l n" onclick="appendToDisplay('0')">0</button>
-                    <button class="l n" class="" onclick="appendToDisplay('.')">.</button>
-                    <button class="l n" onclick="calculate()">=</button>
+                    <button class=" n click" onclick="appendToDisplay('7')">7</button>
+                    <button class=" n click" onclick="appendToDisplay('8')">8</button>
+                    <button class=" n click" onclick="appendToDisplay('9')">9</button>
+                    <button class=" n click" onclick="appendToDisplay('4')">4</button>
+                    <button class=" n click" onclick="appendToDisplay('5')">5</button>
+                    <button class=" n click" onclick="appendToDisplay('6')">6</button>
+                    <button class=" n click" onclick="appendToDisplay('1')">1</button>
+                    <button class=" n click" onclick="appendToDisplay('2')">2</button>
+                    <button class=" n click" onclick="appendToDisplay('3')">3</button>
+                    <button class="l n click" onclick="appendToDisplay('0')">0</button>
+                    <button class="l n click" class="" onclick="appendToDisplay('.')">.</button>
+                    <button class="l n click" onclick="calculate()">=</button>
                 </span>
             </div>
         </div>

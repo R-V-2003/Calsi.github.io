@@ -3,6 +3,8 @@ let display = document.querySelector('.display');
 
 function appendToDisplay(value) {
     display.value += value;
+    var clickSound = document.getElementById('clickSound');
+    clickSound.play();
 }
 
 function clearDisplay() {
@@ -16,6 +18,8 @@ function calculate() {
         display.value = 'Error';
     }
 }
+
+
 
 
 
