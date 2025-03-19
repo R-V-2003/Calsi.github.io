@@ -9,13 +9,19 @@ function appendToDisplay(value) {
 
 function clearDisplay() {
     display.value = '';
+    var clickSound = document.getElementById('clickSound');
+    clickSound.play();
 }
 
 function calculate() {
     try {
         display.value = eval(display.value);
+        var clickSound = document.getElementById('clickSound');
+    clickSound.play();
     } catch (error) {
         display.value = 'Error';
+        var clickSound = document.getElementById('error');
+        clickSound.play(); 
     }
 }
 
