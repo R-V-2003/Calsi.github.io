@@ -20,9 +20,14 @@ body {
 ;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 375px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .values {
-        margin-top: 5px;
+        margin-top: 2px;
 
         padding: 0;
         box-sizing: border-box;
@@ -40,8 +45,8 @@ body {
         height: 460px;
         width: 350px;
         border: 2px black;
-        position: absolute;
-        margin: 5% 35%;
+        display: flex;
+       
     }
 
     .calculator {
@@ -49,9 +54,9 @@ body {
         width: 300px;
         height: 435px;
         position: relative;
-        top: 9px;
+       
         border: 4px solid rgba(52, 54, 48, 0.256);
-        left: 23px;
+       
 
         border-radius: 6px;
         background-color: rgb(52, 54, 48);
@@ -80,7 +85,7 @@ body {
         font-weight: bold;
         color: aliceblue;
         border: 0px;
-        margin-top: 16px;
+        margin-top: 14px;
         margin-bottom: 10px;
         margin-left: 5px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -124,7 +129,7 @@ body {
         height: 340px;
         width: 23%;
         position: relative;
-        margin-top: 8px;
+        margin-top: px;
         margin-left: 5px;
         flex-direction: column;
         justify-content: space-around;
@@ -160,29 +165,21 @@ body {
 }
 
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 375px)
+ {
 
 
     
-    .values {
-        margin-top: 2px;
-        height: calc(100% - 17%);
-        padding: 4px;
-        box-sizing: border-box;
-        border: 2px solid rgb(76, 80, 80);
-        border-radius: 4px;
-    }
     
     
- 
+    
     
     .containor {
         height: 100%;
         width: 100%;
-        display: flex
-    ;
+        display: flex;
         border: 2px black;
-       margin: auto;
+        margin: auto;
     }
     
     .calculator {
@@ -209,36 +206,31 @@ body {
         align-items: center;
         justify-content: center;
     
-    
-    
-    }
-    
-    .n {
-       height: 19%;
-        width: 29%;
-        border-radius: 100%;
-        font-size: 40px;
-        font-weight: bold;
-        color: aliceblue;
-        border: 0px;
-       
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-        box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
-        /* display: flex;
         
-        justify-content: center;
-        align-items: center; */
-        background-color: rgb(97, 100, 100);
-    
+        
     }
     
-    .vn {
+    .display {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 99%;
+        height: 98%;
+        color: white;
         font-size: 40px;
-        font-weight: bold;
-        color: rgb(235, 235, 235);
+        text-align: right;
+        padding: 5px;
+        box-sizing: border-box;
+        opacity: 100%;
+        background-color: transparent;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    
+    .values {
+        margin-top: 2px;
+        height: calc(100% - 17%);
+        padding: 4px;
+        box-sizing: border-box;
+        border: 2px solid rgb(76, 80, 80);
+        border-radius: 4px;
+    }
     .o {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
@@ -267,20 +259,30 @@ body {
         justify-content: space-around;
     }
     
-    
-    .display {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        width: 99%;
-        height: 98%;
-        color: white;
+    .n {
+       height: 19%;
+        width: 29%;
+        border-radius: 100%;
         font-size: 40px;
-        text-align: right;
-        padding: 5px;
-        box-sizing: border-box;
-        opacity: 100%;
-        background-color: transparent;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: aliceblue;
+        border: 0px;
+       
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+        box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
+ 
+        background-color: rgb(97, 100, 100);
+    
     }
+    
+    .vn {
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(235, 235, 235);
+    }
+    
+    
     
     
     .buttons {
