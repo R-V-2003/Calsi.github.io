@@ -9,17 +9,26 @@
 
 
 
-
+/* 
 body {
     background-image: url(formula-5675604_1280.jpg);
     border: 0px;
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
-    display: flex
-;
+    display: flex */
+/* ;
+} */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #514a45;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(37.43, 1%, 4%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(34.19, 69%, 47%) 0, transparent 55%);
 }
-
 @media only screen and (min-width: 375px) {
     body{
         display: flex;
@@ -49,6 +58,29 @@ body {
        
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .calculator {
 
         width: 300px;
@@ -57,18 +89,22 @@ body {
        
         border: 4px solid rgba(52, 54, 48, 0.256);
        
-
         border-radius: 6px;
-        background-color: rgb(52, 54, 48);
-        box-shadow: -20px 15px 9px 3px rgba(60, 59, 63, 0.655);
-
+        background-color: #343630;
+        background-image: 
+            radial-gradient(at 47% 33%, hsl(255.00, 3%, 24%) 0, transparent 59%), 
+            radial-gradient(at 82% 65%, hsl(27.84, 54%, 35%) 0, transparent 55%);
     }
 
     .result {
         height: 80px;
         border-radius: 4px;
         position: relative;
-        background-color: rgb(97, 100, 100);
+        backdrop-filter: blur(9px) saturate(97%);
+        -webkit-backdrop-filter: blur(9px) saturate(97%);
+        background-color: rgba(97, 100, 100, 0.269);
+        border-radius: 12px;
+        border: 1px solid rgba(209, 213, 219, 0.3);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -91,13 +127,25 @@ body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
         box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
-        /* display: flex;
-        
-        justify-content: center;
-        align-items: center; */
-        background-color: rgb(97, 100, 100);
-
+        backdrop-filter: blur(25px) saturate(187%);
+    -webkit-backdrop-filter: blur(25px) saturate(187%);
+    background-color: rgba(97, 100, 100, 0.51);
+   
+    border: 1px solid rgba(209, 213, 219, 0.3);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .vn {
         font-size: 40px;
@@ -119,7 +167,11 @@ body {
         border: 0px;
         box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
         border-radius: 100%;
-        background-color: rgba(223, 146, 3, 0.646);
+        backdrop-filter: blur(23px) saturate(188%);
+    -webkit-backdrop-filter: blur(23px) saturate(188%);
+    background-color: rgba(223, 146, 3, 0.54);
+    
+    border: 1px solid rgba(209, 213, 219, 0.3);
     }
 
     .operator {
@@ -168,11 +220,18 @@ body {
 @media only screen and (max-width: 375px)
  {
 
-
-    
-    
-    
-    
+  
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #514a45;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(37.43, 1%, 4%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(34.19, 69%, 47%) 0, transparent 55%);
+}
+  
     
     .containor {
         height: 100%;
@@ -180,28 +239,34 @@ body {
         display: flex;
         border: 2px black;
         margin: auto;
+     
     }
     
     .calculator {
        
         width: 90vw;
-        height: 80vh;
+        height: 90vh;
         position: relative;
         
         border: 4px solid rgba(52, 54, 48, 0.256);
-        
-    
         border-radius: 6px;
-        background-color: rgb(52, 54, 48);
-        box-shadow: -20px 15px 9px 3px rgba(60, 59, 63, 0.655);
+       
+        background-color: #343630;
+        background-image: 
+            radial-gradient(at 47% 33%, hsl(255.00, 3%, 24%) 0, transparent 59%), 
+            radial-gradient(at 82% 65%, hsl(27.84, 54%, 35%) 0, transparent 55%);
     
     }
     
     .result {
-        height: 17%;
+        height: 18%;
         border-radius: 4px;
         position: relative;
-        background-color: rgb(97, 100, 100);
+        backdrop-filter: blur(9px) saturate(97%);
+        -webkit-backdrop-filter: blur(9px) saturate(97%);
+        background-color: rgba(97, 100, 100, 0.269);
+        border-radius: 12px;
+        border: 1px solid rgba(209, 213, 219, 0.3);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -213,7 +278,7 @@ body {
     .display {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         width: 99%;
-        height: 98%;
+        height: 90%;
         color: white;
         font-size: 40px;
         text-align: right;
@@ -224,9 +289,12 @@ body {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .values {
-        margin-top: 2px;
-        height: calc(100% - 17%);
-        padding: 4px;
+        padding-left: 7px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        
+        height: calc(100% - 18%);
+        display: flex;
         box-sizing: border-box;
         border: 2px solid rgb(76, 80, 80);
         border-radius: 4px;
@@ -244,7 +312,11 @@ body {
         border: 0px;
         box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
         border-radius: 100%;
-        background-color: rgba(223, 146, 3, 0.646);
+        backdrop-filter: blur(23px) saturate(188%);
+    -webkit-backdrop-filter: blur(23px) saturate(188%);
+    background-color: rgba(223, 146, 3, 0.54);
+    
+    border: 1px solid rgba(209, 213, 219, 0.3);
     }
     
     .operator {
@@ -271,8 +343,11 @@ body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
         box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
- 
-        background-color: rgb(97, 100, 100);
+        backdrop-filter: blur(25px) saturate(187%);
+    -webkit-backdrop-filter: blur(25px) saturate(187%);
+    background-color: rgba(97, 100, 100, 0.51);
+   
+    border: 1px solid rgba(209, 213, 219, 0.3);
     
     }
     
