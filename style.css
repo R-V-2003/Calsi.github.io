@@ -41,6 +41,9 @@ body {
         padding: 0;
         box-sizing: border-box;
         border: 2px solid rgb(97, 100, 100);
+        background-color: rgba(18, 17, 17, 0.5);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
         border-radius: 4px;
     }
 
@@ -57,30 +60,6 @@ body {
         display: flex;
        
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .calculator {
 
         width: 300px;
@@ -127,24 +106,12 @@ body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
         box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
-        backdrop-filter: blur(25px) saturate(187%);
-    -webkit-backdrop-filter: blur(25px) saturate(187%);
-    background-color: rgba(97, 100, 100, 0.51);
+        backdrop-filter: blur(50px) saturate(187%);
+    -webkit-backdrop-filter: blur(30px) saturate(187%);
+    background-color: rgba(97, 100, 100, 0.612);
    
-    border: 1px solid rgba(209, 213, 219, 0.3);
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     .vn {
@@ -167,11 +134,11 @@ body {
         border: 0px;
         box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
         border-radius: 100%;
-        backdrop-filter: blur(23px) saturate(188%);
-    -webkit-backdrop-filter: blur(23px) saturate(188%);
-    background-color: rgba(223, 146, 3, 0.54);
+        backdrop-filter: blur(50px) saturate(188%);
+    -webkit-backdrop-filter: blur(50px) saturate(188%);
+    background-color: rgba(223, 146, 3, 0.546);
     
-    border: 1px solid rgba(209, 213, 219, 0.3);
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
     }
 
     .operator {
@@ -298,6 +265,9 @@ body {
         box-sizing: border-box;
         border: 2px solid rgb(76, 80, 80);
         border-radius: 4px;
+        background-color: rgba(18, 17, 17, 0.5);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
     }
     .o {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -312,11 +282,10 @@ body {
         border: 0px;
         box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
         border-radius: 100%;
-        backdrop-filter: blur(23px) saturate(188%);
-    -webkit-backdrop-filter: blur(23px) saturate(188%);
-    background-color: rgba(223, 146, 3, 0.54);
-    
-    border: 1px solid rgba(209, 213, 219, 0.3);
+        backdrop-filter: blur(50px) saturate(188%);
+        -webkit-backdrop-filter: blur(50px) saturate(188%);
+        background-color: rgba(223, 146, 3, 0.546);
+   
     }
     
     .operator {
@@ -343,11 +312,11 @@ body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
         box-shadow: -4px 3px 07px rgba(241, 241, 242, 0.655);
-        backdrop-filter: blur(25px) saturate(187%);
-    -webkit-backdrop-filter: blur(25px) saturate(187%);
-    background-color: rgba(97, 100, 100, 0.51);
+        backdrop-filter: blur(50px) saturate(187%);
+    -webkit-backdrop-filter: blur(30px) saturate(187%);
+    background-color: rgba(97, 100, 100, 0.612);
    
-    border: 1px solid rgba(209, 213, 219, 0.3);
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
     
     }
     
